@@ -3,10 +3,6 @@ import utiles_script as ut
 import random  
 import math
 
-#### ALL UNITS ARE IN SI ####
-#### CONSTANTS ####
-NA = 6.02214076 * 10**23
-
 ### OBJECTS ###
 class Particle:
 	def __init__(self, function, mass, domain_of_ocillation, c):
